@@ -7,17 +7,17 @@ Closure(Data Binding)メソッドを用いて、ViewとViewModelを結合する
 
 - [x] UIKit （SwiftUIでは無い）
 - [x] MVVM アーキテクチャ
-- [x] Data Binding
-- [x] Singleton Design Pattern
-- [x] URLSession - Generic Api calls - Networking API
-- [x] Decodable Protocol with JSONDecoder
+- [x] Data Binding （RX - リアクティブプログラミング）
+- [x] Singleton Design Pattern （生成するインスタンスの数を1つに制限するデザインパターン）
+- [x] URLSession - Generic Api calls - Networking API　（RestFull API専用）
+- [x] JSONDecoder によるデコード
 - [x] 画像ダウンロード - Kingfisher Library　（Webから画像をダウンロードしてキャッシュするSwiftライブラリ）
-- [x] Swift Package Manager - SPM
+- [x] Swift Package Manager - SPM （CocoaPodsでも良い）
 - [x] Closure, Completion, Typealias, Enum
-- [x] Detailed use of UIStackView, UITableView, UITableViewCell XIB
+- [x] Detailed use of UIStackView, UITableView, UITableViewCell XIB　（StoryBoardを使わずカスタマイズされたリストUIを実装）
 - [x] Inheritance - Final Keyword, Init()
-- [x] Memory Management
-- [x] Light and Dark Mode
+- [x] Memory Management （ガベージコレクションなど）
+- [x] Light and Dark Mode (iOS13がサポートするダークモードへの対応)
 
 ##　動画サンプル
 
