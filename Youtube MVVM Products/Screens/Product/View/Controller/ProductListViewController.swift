@@ -57,7 +57,7 @@ extension ProductListViewController {
                     self.productTableView.reloadData()
                 }
             case .error(let error):
-                print(error)
+                print(error as Any)
             case .newProductAdded(let newProduct):
                 print(newProduct)
             }
