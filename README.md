@@ -1,22 +1,17 @@
 # MVVM (Model View ViewModel) + Data Binding + Singleton + Generic API Calls
 
-In this video we learn about the Model View ViewModel (MVVM) Design Pattern.
-We start by understanding how each component connects with themselves, then we implement an example project (Products API) using the MVVM pattern.
-We also learn how to bind our View with our ViewModel using the Closure(Data Binding) method.
+MVVMパターンを使ったサンプルプロジェクト
+Closure(Data Binding)メソッドを用いて、ViewとViewModelを結合する
 
-Products Light Mode    |  Products Dark Mode
-:-------------------------:|:-------------------------:
-<img alt="Products List" src="Screenshots/product_light.png">|<img alt="Products list" src="Screenshots/product_dark.png">
+## 特徴
 
-## Characteristics
-
-- [x] UIKit
-- [x] MVVM architecture
+- [x] UIKit （SwiftUIでは無い）
+- [x] MVVM アーキテクチャ
 - [x] Data Binding
 - [x] Singleton Design Pattern
 - [x] URLSession - Generic Api calls - Networking API
 - [x] Decodable Protocol with JSONDecoder
-- [x] Downloading Image - Kingfisher Library
+- [x] 画像ダウンロード - Kingfisher Library　（Webから画像をダウンロードしてキャッシュするSwiftライブラリ）
 - [x] Swift Package Manager - SPM
 - [x] Closure, Completion, Typealias, Enum
 - [x] Detailed use of UIStackView, UITableView, UITableViewCell XIB
@@ -24,21 +19,6 @@ Products Light Mode    |  Products Dark Mode
 - [x] Memory Management
 - [x] Light and Dark Mode
 
-## Resources
-- MVVM Keynotes: https://raw.githubusercontent.com/YogeshPateliOS/MVVM-Products-List-API/main/MVVM.key
-- Youtube Video: https://youtu.be/fMO03NUjdj8
+##　動画サンプル
 
-## Say Hi on Social Media:
-- Linkedin: https://www.linkedin.com/in/yogeshpatelios
-- Instagram: https://www.instagram.com/codewithyogesh
-
-## My Applications:
-
-- BMI Weight Loss Calculator: https://apps.apple.com/us/app/bmi-weight-loss-calculator/id6444039190
-- My Music - Play & Share: https://apps.apple.com/us/app/my-music-play-share/id1559774882
-
-### YOUTUBE:
-If you enjoyed this project and found it useful, please share and recommend it so others can find it 💚💚💚💚💚💚 !!!!
-https://youtube.com/yogeshpatelios - Please Like, Subscribe and share if it found useful for you 🤟
-
-### Enjoy!!! 😀
+https://user-images.githubusercontent.com/5846718/228222696-016c8066-285a-4dab-bca9-07cff84d3da6.mov
